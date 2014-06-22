@@ -23,4 +23,6 @@ Columns for each dataframe are renamed appropriately for readability.
 
 Finally, dataframe `final` is created by merging `activity_labels` with `y` using the activity_id and binding columns from dataframes `x` and `subject`. For this project, we're only interested in mean and standard deviation calculations, so any column name that does not contain "-mean()" or "-std()" is removed.
 
+This leaves us with a single 'tidy' dataframe containing one measurement for each measurement type, for each subject, for each activity, for each observation. This allows us to easily manipulate all measurement values for a given measurement type, or all measurements for a given activity or subject.
+
 An average of each measurement, for each activity, for each subject is then saved to dataframe `final_avg`. Both final dataframes are saved as CSV files in the data folder.
