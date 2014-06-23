@@ -10,3 +10,6 @@ variables found in `final` dataframe:
 The remaining are named according the measurement type, axis of measurement, and whether the measure is a mean or standard deviation.
 
 variables found in `final_avg` dataframe are the same, except the numbers represent averages of each measurement.
+
+====
+See http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones for more information.
